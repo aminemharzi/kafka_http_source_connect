@@ -86,10 +86,10 @@ topic=student-topic
 
 ---
 
-## 🚀 Run Connector
+## 🚀 Run Connector for windows
 
 ```bash
-$KAFKA_HOME/bin/connect-standalone.sh connect.properties source-connector.properties
+%KAFKA_HOME%/bin/windows/connect-standalone.bat connect.properties source-connector.properties
 ```
 
 Make sure your JAR is placed in the `plugin.path` defined in `connect.properties`.
