@@ -122,7 +122,4 @@ Make sure your JAR is placed in the `plugin.path` defined in `connect.properties
 
 ---
 
-## 📚 License
-
-MIT License © 2025
 
