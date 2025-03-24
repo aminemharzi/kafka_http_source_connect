@@ -69,7 +69,7 @@ key.converter=org.apache.kafka.connect.storage.StringConverter
 value.converter=org.apache.kafka.connect.json.JsonConverter
 value.converter.schemas.enable=true
 offset.storage.file.filename=/tmp/connect.offsets
-plugin.path=./plugins
+plugin.path=./connector-jars
 ```
 
 ### `source-connector.properties`
